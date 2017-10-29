@@ -1,0 +1,26 @@
+[lewhitt@hopper hmwk4]$ ./rev_comp.py 
+Type your DNA sequence : acccttga
+Reverse complement DNA: TCAAGGGT
+[lewhitt@hopper hmwk4]$ ./rev_comp.py 
+Type your DNA sequence : ACCCTTGA
+Reverse complement DNA: TCAAGGGT
+[lewhitt@hopper hmwk4]$ ./rev_comp.py 
+Type your DNA sequence : ACCCTTGK
+Traceback (most recent call last):
+  File "./rev_comp.py", line 74, in <module>
+    main()
+  File "./rev_comp.py", line 56, in main
+    raise ValueError('Sequence must be nucleic acids (eg: A,T,G,C)')
+ValueError: Sequence must be nucleic acids (eg: A,T,G,C)
+[lewhitt@hopper hmwk4]$ ./rev_comp
+rev_comp_biopython.py  rev_comp.py            
+[lewhitt@hopper hmwk4]$ ./rev_comp_biopython.py 
+Type your DNA sequence : ACCCTTGA
+Reverse complement DNA : TCAAGGGT
+[lewhitt@hopper hmwk4]$ ./rev_comp_biopython.py 
+Type your DNA sequence : acccttga
+Reverse complement DNA : tcaagggt
+[lewhitt@hopper hmwk4]$ ./rev_comp_biopython.py 
+Type your DNA sequence : ACCCTTGK
+Reverse complement DNA : MCAAGGGT
+[lewhitt@hopper hmwk4]$
